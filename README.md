@@ -1,4 +1,4 @@
-# avaScriptmas 2023
+# JavaScriptmas 2023
 
 Quick start:
 
