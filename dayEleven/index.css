@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root { 
+    --white: #FFF;
+    --red: #FF0002;
+    --snow: #F0F4F7;
+    --length: 320px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--snow);
+}
+
+.flag {
+    position: relative;
+    width: var(--length);
+    height: var(--length);   
+    background-color: var(--red);
+}
+
+.cross {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+}
+
+.cross1 {
+    width: 62.5%;
+    height: 18.75%;
+}
+
+.cross2 {
+    width: 18.75%;
+    height: 62.5%;
+}
